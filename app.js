@@ -5,6 +5,9 @@ const express = require('express');
 //app setup 
 const app = express();
 
+//styles 
+app.use(express.static('public'));
+
 //middleware 
 const exphbs = require('express-handlebars');
 
